@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff7675;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 2px solid #d63031;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: #ff7675;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #d63031;
+}
+
+.attempts {
+    margin-bottom: 10px;
+    color: #2d3436;
+}
+
+.message {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ff7675;
+}
+
+.hint {
+    color: #d63031;
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.surprise img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.surprise h1 {
+    font-family: 'Pacifico', cursive;
+    color: #ff7675
+/* Add this to your styles.css */
+
+}.images img {
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Makes the cursor look like a pointer */
+    height: 300px;
+    width: 300px;
+}
+
+.images img:hover {
+    transform: scale(1.05); /* Slightly enlarges the image when hovered */
+}

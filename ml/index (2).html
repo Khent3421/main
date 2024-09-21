@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Monthsary Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>:))</h1>
+        
+        <form id="loginForm">
+            <input type="password" id="password" placeholder="Enter your guess" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="hint" class="hint hidden">Clue: i call u this to tease u </p>
+        <p id="attemptsLeft" class="attempts"></p>
+        <p id="message" class="message"></p>
+
+        <div class="surprise hidden" id="surpriseMessage">
+            <h1>A MONTH WITH YOU MY PRINCESS</h1>
+            <div class="message">
+                <p>You've unlocked the surprise! Thank you for always being amazing!</p>
+                <p>I love you! ❤️</p>
+            </div>
+
+            <div class="images">
+                <!-- Wrap the image in an <a> tag to make it clickable -->
+                <a href="stfu.html" target="_blank">
+                    <img src="cat.jpg" alt="pookie">
+                </a>
+            </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
